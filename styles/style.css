@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: #e3e6e6;
+}
 .container{
     max-width: 1500px;
     margin: 0 auto;
@@ -167,4 +170,49 @@
 }
 .banner_section img{
     width: 100%;
+}
+.gaming_accessories_section .main_column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+}
+.gaming_accessories_section .main_column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+.gaming_accessories_section .main_column img{
+    width: 100%;
+}
+.gaming_accessories_section .image_column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+.gaming_accessories_section .flex_column{
+    background-color: #fff;
+    padding: 24px 20px;
+}
+.gaming_accessories_section .flex_column h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.gaming_accessories_section .flex_column a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.gaming_accessories_section .flex_column a:hover{
+    color: #c7511f;
+}
+.gaming_accessories_section{
+    position: relative;
+}
+.gaming_accessories_section .container{
+    position: absolute;
+    right: -50px;
+    left: -50px;
+    top: -70px;
 }
